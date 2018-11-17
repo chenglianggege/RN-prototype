@@ -62,7 +62,7 @@ export default class App extends Component<Props> {
 		  <TabNavigator.Item
 		    selected={this.state.selectedTab === 'tb_my'}
 		    selectedTitleStyle={{color:'green'}}
-		    title="我的"
+		    title="我"
 		    renderIcon={() => <Image style={styles.image} source={require('../../res/images/ic_trending.png')} />}
 		    renderSelectedIcon={() => <Image style={[styles.image,{tintColor:'green'}]} source={require('../../res/images/ic_trending.png')} />}
 		    onPress={() => this.setState({ selectedTab: 'tb_my' })}>
